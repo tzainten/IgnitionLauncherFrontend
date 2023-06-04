@@ -52,7 +52,7 @@ public partial class MainWindow : UiWindow
 
     IgnitionSocket Socket;
 #if DEBUGLOCAL
-    string ServerAddress = "127.0.0.1";
+    string ServerAddress = "192.168.1.246";
 #else
     string ServerAddress = "67.241.20.18";
 #endif
